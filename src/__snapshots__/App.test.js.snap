@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calculator display should render correctly 1`] = `
+<div
+  class="display__wrapper"
+>
+  <span
+    class="display__text"
+  >
+    <span>
+      0
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Keypad button should render correctly 1`] = `
+<div
+  class="keypad__button-wrapper  keypad__button-wrapper--undefined"
+>
+  <input
+    class="keypad__button keypad__button--undefined"
+    id="0"
+    name="clear"
+    type="button"
+    value="C"
+  />
+</div>
+`;

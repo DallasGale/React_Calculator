@@ -1,0 +1,39 @@
+.keypad__button {
+    border: none;
+    color: black;
+    cursor: pointer;    
+    font-size: 2rem;
+    padding: 20px 30px;
+    position: relative;
+    width: 100%;
+    transition: all 0.3s;
+}
+.keypad__button:active {
+    top: 1px;
+    background: #00000032;
+    transition: all 0.3s;
+}
+.keypad__button--numbers {
+    background: rgba(255,255,255,0.1);
+    border-radius: 2px;
+    color: #fff;
+}
+
+.keypad__button--operators {
+    background: none;
+    color: #fff;
+    padding: 0;
+}
+
+.keypad__button-wrapper {
+    display: inline-block;
+    width: 30%;
+    padding: 5px;
+    text-align: center
+}
+
+.keypad__button-wrapper--operators {
+    display: block;
+    width: 100%;
+}
+
